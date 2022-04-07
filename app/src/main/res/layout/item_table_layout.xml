@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="TextView"
+        android:fontFamily="monospace"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tv_nombres"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="TextView"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/tv_tlf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:text="TextView"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/tv_correo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="TextView"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/tv_edad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="TextView"
+        android:fontFamily="monospace" />
+</TableRow>
